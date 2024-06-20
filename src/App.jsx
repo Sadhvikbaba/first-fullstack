@@ -20,6 +20,7 @@ function App() {
       }
     })
     .finally(() => setLoading(false))
+    //false
   }, [])
   
   return !loading ? (
